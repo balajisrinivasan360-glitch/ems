@@ -57,4 +57,6 @@ public class EmployeeController {
 	public String updatePatchEmployeeByEmail(@RequestBody Employee employee,@PathVariable String email) {
 		return employeeService.updatePatchEmployeeByEmail(employee,email);
 	}
+	
+	int a=100;
 }
