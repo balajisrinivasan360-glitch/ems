@@ -1,0 +1,9 @@
+package com.tcs.ems.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.tcs.ems.entity.Employee;
+
+public interface EmployeeRepository extends JpaRepository<Employee,String>{
+
+}
